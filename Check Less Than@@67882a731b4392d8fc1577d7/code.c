@@ -2,8 +2,8 @@
 int main()
 {
     int a,b;
-    scanf("%a",&a);
-    scanf("%b",&b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     if(a<b)
     {
         printf("True")
