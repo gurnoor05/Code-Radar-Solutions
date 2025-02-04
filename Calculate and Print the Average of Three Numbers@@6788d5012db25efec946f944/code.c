@@ -6,6 +6,6 @@ void main()
     scanf("%d",&b);
     scanf("%d",&c);
     float d;
-    d=(a+b+c)/3;
-    printf("%.2f",d);
+    d=(a+b+c)/3.0;
+    printf("%.2f",&d);
 }
