@@ -12,6 +12,6 @@ void main()
         printf("Odd");
     }
     else{
-        printf("0")
+        printf("0");
     }
 }
