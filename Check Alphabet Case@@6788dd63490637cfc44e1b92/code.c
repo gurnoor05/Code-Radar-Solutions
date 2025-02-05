@@ -5,11 +5,11 @@ void main()
     scanf("%c",&a);
     if(isupper(a))
     {
-        printf("Uppercase");
+        printf("%c Uppercase",a);
     }
     else if(islower(a))
     {
-        printf("Lowercase");
+        printf("%c Lowercase",a);
     }
     else
     {
