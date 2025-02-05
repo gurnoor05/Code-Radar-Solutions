@@ -3,19 +3,19 @@ void main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(-a&&b || a&&-b)
+    if(-a&&+b || +a&&-b)
     {
         printf("True");
     }
-    else if(-a&&-b)
+    else if(+a&&+b || -a&&-b)
     {
         printf("False");
     }
-    else if(-a&&b==0 || a&&b==0)
+    else if(-a&&b==0 || +a&&b==0)
     {
         printf("False");
     }
-    else if(-b&&a==0 || b&&a==0)
+    else if(-b&&a==0 || +b&&a==0)
     {
         printf("False");
     }
