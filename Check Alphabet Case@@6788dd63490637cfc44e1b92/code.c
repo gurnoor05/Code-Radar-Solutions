@@ -6,14 +6,14 @@ void main()
     scanf("%c",&ch);
     if(isupper(ch))
     {
-        printf("Uppercase");
+        printf("Uppercase %c",ch);
     }
     else if(islower(ch))
     {
-        printf("Lowercase");
+        printf("Lowercase %c",ch);
     }
     else
     {
-        printf("INVALID");
+        printf("Not an alphabet");
     }
 }
